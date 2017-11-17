@@ -1,4 +1,3 @@
-G:\unity\MyDemo\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 G:\unity\MyDemo\Temp\bin\Debug\Assembly-CSharp.dll
 G:\unity\MyDemo\Temp\bin\Debug\Assembly-CSharp.pdb
 G:\unity\MyDemo\Temp\bin\Debug\nunit.framework.dll
@@ -28,5 +27,6 @@ G:\unity\MyDemo\Temp\bin\Debug\nunit.framework.xml
 G:\unity\MyDemo\Temp\bin\Debug\UnityEngine.Timeline.xml
 G:\unity\MyDemo\Temp\bin\Debug\UnityEngine.Analytics.xml
 G:\unity\MyDemo\Temp\bin\Debug\UnityEngine.HoloLens.xml
+G:\unity\MyDemo\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 G:\unity\MyDemo\obj\Debug\Assembly-CSharp.dll
 G:\unity\MyDemo\obj\Debug\Assembly-CSharp.pdb

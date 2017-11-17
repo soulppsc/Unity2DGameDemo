@@ -16,10 +16,12 @@ public class GameMenu : MonoBehaviour {
 
 	public void MenuBtn () {
 		Menu.enabled = true;
+		Time.timeScale = 0;
 	}
 
 	public void BackToMainMenu () {
 		SceneManager.LoadScene ("MenuScene");
+		Time.timeScale = 1;
 	}
 
 	public void BackToDesktop () {
@@ -36,6 +38,7 @@ public class GameMenu : MonoBehaviour {
 
 	public void escBtn () {
 		Menu.enabled = false;
+		Time.timeScale = 1;
 	}
 
 }

@@ -11,7 +11,6 @@ public class Bullet : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
-
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 		Vector3 point = ray.origin;
 		point.z = 0;
@@ -29,4 +28,9 @@ public class Bullet : MonoBehaviour {
 	{  
 		Destroy (this.gameObject);
 	}  
+
+	void OnCollisionEnter2D (Collision2D other) {
+		if (other.gameObject.tag == "Ground")
+			Destroy (this.gameObject);
+	}
 }

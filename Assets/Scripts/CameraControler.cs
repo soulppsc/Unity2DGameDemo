@@ -1,0 +1,24 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraControler : MonoBehaviour {
+
+	public float smooth;
+	public float startSize;
+	public float endSize;
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+
+	void LateUpdate () {
+
+	}
+}
